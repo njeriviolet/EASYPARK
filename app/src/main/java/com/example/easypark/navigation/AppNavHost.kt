@@ -22,7 +22,6 @@ import com.example.easypark.ui.theme.screens.spaces.ViewSpacesScreen
 import com.example.easypark.ui.theme.screens.splash.splashscreen
 
 
-import com.example.easypark.ui.theme.ticket.GenerateTicketScreen
 
 
 @Composable
@@ -52,9 +51,7 @@ fun AppNavHost(
         composable(ROUT_LOGIN) {
             LoginScreen(navController = navController)
         }
-        composable(ROUT_GENERATETICKET) {
-            GenerateTicketScreen(navController = navController)
-        }
+
         composable(ROUT_PARKINGSPACES) {
             ParkingSpacesScreen(navController = navController)
         }
