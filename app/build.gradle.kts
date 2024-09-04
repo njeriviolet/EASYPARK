@@ -66,6 +66,8 @@ dependencies {
     implementation(libs.firebase.firestore.ktx)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.firebase.database.ktx)
+    implementation(libs.generativeai)
+    implementation(libs.firebase.storage)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -73,8 +75,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-
-
     implementation("com.airbnb.android:lottie-compose:4.2.0")
     implementation("io.coil-kt:coil-compose:2.0.0-rc01")
 
